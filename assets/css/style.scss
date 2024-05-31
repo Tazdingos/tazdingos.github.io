@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+section {
+  #title {
+    margin: 0 0 0 0;
+    
+    .credits {
+      visibility: hidden;
+    }
+  }
+}
