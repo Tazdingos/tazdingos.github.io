@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-[Hem](/)
+
+[[ Kontakt ]](/) [[ Kläder ]](/clothes) [[ Replikor ]](/replicas) [[ Accessoarer ]](/accessories) [[ Antika vapen ]](/antique_weapons)
+
+
 {% for item in site.replicas -%}
-[{{ item.name }}](#{{ item.name | downcase }})
+[[ {{ item.name }} ]](#{{ item.name | downcase }})
 {% endfor %}
 
 ----
